@@ -19,6 +19,11 @@ public class Staff extends Personel {
     return position;
   }
 
+  @Override
+  public String toString() {
+    return "Staff [name="+this.getName()+", position=" + position + ", salary=" + salary + "]";
+  }
+
   public void setPosition(String position) {
     this.position = position;
   }
