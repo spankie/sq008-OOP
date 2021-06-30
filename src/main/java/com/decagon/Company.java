@@ -64,6 +64,8 @@ public class Company {
   }
 
   public void hire() {
-    
+    for (int i = 0; i < applicants.size(); i++) {
+      this.ceo.hire(this.applicants.get(i), this.staffs);
+    }
   }
 }
