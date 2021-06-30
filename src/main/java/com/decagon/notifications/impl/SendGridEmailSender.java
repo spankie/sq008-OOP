@@ -1,4 +1,6 @@
-package com.decagon;
+package com.decagon.notifications.impl;
+
+import com.decagon.notifications.EmailSender;
 
 public class SendGridEmailSender implements EmailSender {
 
