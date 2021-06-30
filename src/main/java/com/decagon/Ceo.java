@@ -3,6 +3,8 @@ package com.decagon;
 import java.util.List;
 import java.util.Map;
 
+import com.decagon.notifications.EmailSender;
+
 /**
  * Ceo
  */
